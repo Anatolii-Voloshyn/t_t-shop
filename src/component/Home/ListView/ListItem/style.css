@@ -1,0 +1,23 @@
+.listItem-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.listItem-wrap img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.list-title {
+  margin-bottom: 5px;
+}
+
+.list-price {
+  margin-top: 5px;
+}

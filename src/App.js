@@ -11,6 +11,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import instagramImg from './images/instagram.png';
 import telegramImg from './images/telegram.png';
 import tiktokImg from './images/tiktok.png';
+import Login from './component/pages/AddingGoods/Login';
+import AddNewGood from './component/pages/AddingGoods/AddGood';
 
 const darkTheme = createTheme({
   palette: {
@@ -72,6 +74,8 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/delivery" element={<Delivery />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/add" element={<AddNewGood />} />
             </Routes>
           </Box>
         </Box>

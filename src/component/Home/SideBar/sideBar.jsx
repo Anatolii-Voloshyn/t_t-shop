@@ -1,5 +1,5 @@
 import React from 'react';
-import { categoryList, sizeList } from '../../constants';
+import { categoryList, sizeList } from '../../../constants';
 import FilterListToggle from '../../common/filterListToogle';
 import './style.css';
 import CheckboxProton from '../../common/CheckboxProton';

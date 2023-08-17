@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SideBar from "../../Home/SideBar/sideBar";
 import ListView from "../../Home/ListView/listView";
 import './style.css';
-import { dataList } from "../../constants";
+import { dataList } from "../../pages/AddingGoods/AddGood/index";
 
 const Home = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
